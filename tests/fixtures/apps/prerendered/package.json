@@ -1,0 +1,15 @@
+{
+    "name": "test",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "svelte-kit dev",
+        "build": "svelte-kit build",
+        "start": "svelte-kit start"
+    },
+    "devDependencies": {
+        "@sveltejs/kit": "next",
+        "svelte": "^3.44.2",
+        "svelte-adapter-ghpages": "file:../../../.."
+    },
+    "type": "module"
+}
