@@ -33,4 +33,16 @@ describe("index", () => {
                 .includes("<h1>This page is 404</h1>"),
         )
     })
+    it("missing 404", () => {
+        const APP_ROOT = path.resolve(__dirname, "../fixtures/apps/missing404")
+
+        process.chdir(APP_ROOT)
+        cp.execSync("npm i --no-package-lock --legacy-peer-deps", {
+            stdio: "inherit",
+        })
+        cp.execSync(`npm run build`, { stdio: "inherit" })
+
+        const pathFor404 = path.join(APP_ROOT, "build/404.html")
+        assert.ok(!fs.existsSync(pathFor404))
+    })
 })

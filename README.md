@@ -50,6 +50,19 @@ const config = {
 };
 ```
 
+Add `404.svelte` to the routes directory.
+
+For example: `src/routes/404.svelte`
+
+```svelte
+<h1>404</h1>
+<blockquote>
+  <p>Not Found</p>
+</blockquote>
+```
+
+`404.svelte` will be placed as `404.html` when you run `npm run build`.
+
 [sveltekit]: https://kit.svelte.dev/
 [@sveltejs/adapter-static]: https://github.com/sveltejs/kit/tree/master/packages/adapter-static
 
