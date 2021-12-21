@@ -12,8 +12,20 @@ export default function (options: AdapterStaticOptions): Adapter {
         name: "svelte-adapter-ghpages",
         async adapt(builder) {
             await baseStatic.adapt(builder)
-            builder.copy(`${pages}/404/index.html`, `${pages}/404.html`)
-            builder.rimraf(`${pages}/404`)
+
+            builder.rimraf(`${pages}/404.html`)
+            if (
+                builder.copy(`${pages}/404/index.html`, `${pages}/404.html`)
+                    .length
+            ) {
+                builder.rimraf(`${pages}/404`)
+            } else {
+                await builder.prerender({
+                    dest: pages,
+                    all: false,
+                    fallback: `/404.html`,
+                })
+            }
         },
     }
 }

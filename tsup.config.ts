@@ -6,4 +6,5 @@ export default defineConfig({
     entryPoints: ["src/index.ts"],
     format: ["cjs", "esm"],
     outDir: "lib",
+    target: "node14",
 })
