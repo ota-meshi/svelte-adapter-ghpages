@@ -39,6 +39,10 @@ const config = {
   // ...
   kit: {
     // ...
+    paths: {
+      base: "/your-repo-name",
+    },
+    // ...
     adapter: adapterGhpages(
       // default options are shown
       pages: 'build',
