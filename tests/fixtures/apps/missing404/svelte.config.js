@@ -6,8 +6,7 @@ const config = {
 		paths: {
 			base: "/your-repo-name",
 		},
-		adapter: adapter(),
-		target: '#svelte'
+		adapter: adapter()
 	}
 };
 
