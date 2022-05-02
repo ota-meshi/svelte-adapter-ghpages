@@ -6,6 +6,9 @@ const config = {
 		paths: {
 			base: "/your-repo-name",
 		},
+		prerender: {
+			default: true,
+		},
 		adapter: adapter()
 	}
 };
