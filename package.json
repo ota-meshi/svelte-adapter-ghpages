@@ -26,8 +26,8 @@
         "precover": "npm run build",
         "cover": "nyc --reporter=lcov npm run test:base",
         "test:base": "mocha --require ts-node/register \"tests/src/**/*.ts\" --reporter dot --timeout 60000",
-        "debug": "mocha --require ts-node/register/transpile-only \"tests/**/*.ts\" --reporter dot",
-        "update-snap": "mocha --require ts-node/register/transpile-only \"tests/**/*.ts\" --reporter dot --update",
+        "debug": "mocha --require ts-node/register/transpile-only \"tests/src/**/*.ts\" --reporter dot",
+        "update-snap": "mocha --require ts-node/register/transpile-only \"tests/src/**/*.ts\" --reporter dot --update",
         "preversion": "npm run lint && npm test"
     },
     "repository": {

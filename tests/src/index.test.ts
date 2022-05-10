@@ -43,6 +43,8 @@ describe("index", () => {
         cp.execSync(`npm run build`, { stdio: "inherit" })
 
         const pathFor404 = path.join(APP_ROOT, "build/404.html")
-        assert.ok(!fs.existsSync(pathFor404))
+        assert.ok(fs.existsSync(pathFor404))
+
+        assert.ok(fs.existsSync(path.join(APP_ROOT, "build/index.html")))
     })
 })
