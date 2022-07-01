@@ -53,7 +53,7 @@
         "@sveltejs/adapter-static": "^1.0.0-next.26"
     },
     "devDependencies": {
-        "@ota-meshi/eslint-plugin": "^0.10.0",
+        "@ota-meshi/eslint-plugin": "^0.11.0",
         "@sveltejs/kit": "^1.0.0-next.225",
         "@types/chai": "^4.2.22",
         "@types/mocha": "^9.0.0",
