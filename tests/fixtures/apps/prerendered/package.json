@@ -2,9 +2,8 @@
     "name": "test",
     "version": "0.0.1",
     "scripts": {
-        "dev": "svelte-kit dev",
-        "build": "svelte-kit build",
-        "start": "svelte-kit start"
+        "dev": "vite dev",
+        "build": "vite build"
     },
     "devDependencies": {
         "@sveltejs/kit": "next",
