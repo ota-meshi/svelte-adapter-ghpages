@@ -1,6 +1,6 @@
 {
   "name": "svelte-adapter-ghpages",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "SvelteKit adapter for gh-pages",
   "files": [
     "lib"
