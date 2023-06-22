@@ -76,7 +76,7 @@
     "prettier": "^2.5.0",
     "prettier-plugin-svelte": "^2.5.0",
     "rimraf": "^5.0.0",
-    "svelte": "^3.44.2",
+    "svelte": "^4.0.0",
     "ts-node": "^10.4.0",
     "tsup": "^7.0.0",
     "typescript": "^5.0.0",
