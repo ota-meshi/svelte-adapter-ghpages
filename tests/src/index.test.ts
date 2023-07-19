@@ -28,7 +28,7 @@ describe("index", () => {
     const pathFor404 = path.join(APP_ROOT, "build/404.html");
     assert.ok(fs.existsSync(pathFor404));
     assert.ok(
-      fs.readFileSync(pathFor404, "utf8").includes("<h1>This page is 404</h1>")
+      fs.readFileSync(pathFor404, "utf8").includes("<h1>This page is 404</h1>"),
     );
   });
   it("missing 404", () => {
