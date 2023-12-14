@@ -50,7 +50,7 @@
     "@sveltejs/kit": "^1.0.0"
   },
   "dependencies": {
-    "@sveltejs/adapter-static": "^2.0.0"
+    "@sveltejs/adapter-static": "^3.0.0"
   },
   "devDependencies": {
     "@ota-meshi/eslint-plugin": "^0.15.0",
