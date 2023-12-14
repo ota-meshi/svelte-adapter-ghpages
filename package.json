@@ -47,14 +47,14 @@
   },
   "homepage": "https://github.com/ota-meshi/vite-plugin-svelte-md#readme",
   "peerDependencies": {
-    "@sveltejs/kit": "^1.0.0"
+    "@sveltejs/kit": "^2.0.0"
   },
   "dependencies": {
     "@sveltejs/adapter-static": "^2.0.0"
   },
   "devDependencies": {
     "@ota-meshi/eslint-plugin": "^0.15.0",
-    "@sveltejs/kit": "^1.0.0",
+    "@sveltejs/kit": "^2.0.0",
     "@types/chai": "^4.2.22",
     "@types/mocha": "^10.0.0",
     "@types/node": "^20.0.0",
