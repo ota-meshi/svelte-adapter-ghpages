@@ -47,7 +47,7 @@
   },
   "homepage": "https://github.com/ota-meshi/vite-plugin-svelte-md#readme",
   "peerDependencies": {
-    "@sveltejs/kit": "^2.0.0"
+    "@sveltejs/kit": "^1.0.0 || ^2.0.0"
   },
   "dependencies": {
     "@sveltejs/adapter-static": "^2.0.0"
