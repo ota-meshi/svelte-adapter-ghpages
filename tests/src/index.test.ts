@@ -16,7 +16,7 @@ describe("index", () => {
   after(() => {
     process.chdir(originalCwd);
   });
-  it("basic", async () => {
+  it("basic", () => {
     const APP_ROOT = path.resolve(__dirname, "../fixtures/apps/prerendered");
 
     process.chdir(APP_ROOT);
