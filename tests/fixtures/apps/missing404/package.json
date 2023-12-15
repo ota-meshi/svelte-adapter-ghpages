@@ -6,8 +6,8 @@
         "build": "vite build"
     },
     "devDependencies": {
-        "@sveltejs/kit": "^1.0.0",
-        "svelte": "^3.44.2",
+        "@sveltejs/kit": "^2.0.0",
+        "svelte": "^4",
         "svelte-adapter-ghpages": "file:../../../.."
     },
     "type": "module"
