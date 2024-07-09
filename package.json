@@ -53,6 +53,7 @@
     "@sveltejs/adapter-static": "^2.0.0 || ^3.0.0"
   },
   "devDependencies": {
+    "@eslint-community/eslint-plugin-eslint-comments": "^4.3.0",
     "@ota-meshi/eslint-plugin": "^0.17.5",
     "@sveltejs/kit": "^2.0.0",
     "@types/chai": "^4.2.22",
