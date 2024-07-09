@@ -13,6 +13,5 @@
   "typescript.tsdk": "./node_modules/typescript/lib",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
-  },
-  "vetur.validation.template": false
+  }
 }
